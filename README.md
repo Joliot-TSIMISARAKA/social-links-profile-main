@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Solution at ForntEnd Mentor: [Here](https://github.com/Joliot-TSIMISARAKA/social-links-profile-main)
+-   Live Site URL: [Vercel](https://social-links-profile-main-cyan-eight.vercel.app/)
 
 ## My process
 

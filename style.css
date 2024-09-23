@@ -109,8 +109,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     font-size: 0.875rem;
+    align-items: center;
     color: var(--white);
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .card {
-    padding: 1.5rem;
+    padding: 1.7rem;
     gap: 1.2rem;
     max-width: 24rem;
 }
@@ -172,24 +172,23 @@ h2 {
 }
 
 .links {
-    gap: 0.8rem;
+    gap: 1rem;
 }
 
-button {
+.links p {
     background-color: var(--lightgrey);
     padding: 0.5em 0;
-    border: 1px var(--lightgrey) solid;
     border-radius: 10px;
     position: relative;
 }
 
-button a {
+.links a {
     color: var(--white);
     text-decoration: none;
     font-weight: var(--semi-bold);
 }
 
-button a::before {
+.links a::before {
     content: "";
     position: absolute;
     top: 0;
@@ -198,17 +197,7 @@ button a::before {
     height: 100%;
 }
 
-button:hover,
-button:focus {
+a:hover,
+a:focus {
     background-color: var(--green);
-}
-
-button:hover a,
-button:focus a {
-    color: black;
-}
-
-/* Getting rid of the default outline style of buttons */
-button {
-    outline: none;
 }
