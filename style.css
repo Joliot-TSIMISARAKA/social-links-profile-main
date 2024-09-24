@@ -2,15 +2,18 @@
     font-family: Inter;
     src: url(assets/fonts/static/Inter-Bold.ttf), format("truetype");
     font-weight: 700;
+    font-display: swap;
 }
 @font-face {
     font-family: Inter;
     src: url(assets/fonts/static/Inter-Regular.ttf), format("truetype");
     font-weight: 400;
+    font-display: swap;
 }
 @font-face {
     font-family: Inter;
     src: url(assets/fonts/static/Inter-SemiBold.ttf), format("truetype");
+    font-display: swap;
     font-weight: 600;
 }
 
@@ -173,14 +176,16 @@ h2 {
 
 .links {
     gap: 1rem;
+    padding: 0;
+    margin: 0;
 }
 
-.links p {
+.links li {
     background-color: var(--lightgrey);
     padding: 0.5em 0;
     border-radius: 10px;
     position: relative;
-    display: block;
+    list-style-type: none;
 }
 
 .links a {
@@ -199,10 +204,10 @@ h2 {
     border-radius: 10px;
 }
 
-p:hover {
+li:hover {
     background-color: var(--green);
 }
 
-p:hover a {
+li:hover a {
     color: var(--darkgrey);
 }
